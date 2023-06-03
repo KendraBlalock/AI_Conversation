@@ -1,0 +1,47 @@
+---
+title: "An AI Conversation About Text Analysis"
+author: "Kendra Blalock"
+date: "5/17/2023"
+output: html_document
+---
+
+## AI Directed Data Analysis
+With all of the buzz about ChatGPT and other generative AI tools, I decided to take an opportunity to test it out and get a feel for if and how these types of tools may be helpful. 
+
+My full conversation with ChatGPT can be found [here](https://kendrablalock.github.io/chat/). 
+ 
+## AI to the Rescue? 
+Since my goal was the gauge the tool overall and the various ways I could use it, made several different types of requests of ChatGPT:
+
+1. Topic for investigation (Books)
+2. Publicly available data related to books (5 good options)
+3. How to access one of the options (API instructions for Open Library)
+4. R package for the Open Library API (openlibraryR)
+5. A subtopic to use as a query filter (ethical considerations in artificial intelligence and machine learning)
+6. Assistance with r code for JSON formatted data (jsonlite)
+7. Formatting the code for the API call
+8. Options for analyzing text data (4 options provided)
+9. A more detail description of  Latent Dirichlet Allocation (LDA) analysis
+10. R packages and code examples to run LDA analyses (topicmodels)
+11. Information on working with a TermDocumentMatrix
+12. R packages and code examples for keyword analysis (tm)
+13. Details about sparsity issues
+14. How to interpret results
+15. A prompt to use for AI generated image that captures the conversation ("An AI conversing with a user about language and text analysis.")
+16. How to export a copy of the conversation we had 
+
+## Overall Impression
+At first I was impressed with the level of detailed instructions the model can provide. However, after trying the various sets of instructions I quickly realized that they were accurate about 80% of the time. Generally not bad, but I found myself usually frustrated. After several attempts, I realized that my frustration stemmed from the conversation style in which the instructions were being provided. 
+
+Normally, when I need specific information I just google it. I expect to have to visit a few different websites and that some of the information I find will be incorrect or not applicable. ChatGPT's answer is nicely wrapped up and provided to you in a confident manner. You have question X, here is answer Y. There is no amount of probability attached to the answer. No statements like "this might help you, or maybe try this other code if the first approach doesn't work". 
+
+For example, ChatGPT kept telling me I needed an API key and providing me code that required an API key. Only after I spent a fair amount of time troubleshooting did I release that while the site may have once required an API key in the past, but they do not presently. When I asked ChatGPT if it was sure I needed an API key, only then did it finally tell me that I didn't.
+
+There is something interesting about the physiology of interacting with a model that shows complete confidence but doesn't provide 100% accuracy. As humans, many of us are socialized to follow people who show high levels of confidence. We follow authority figures. We are also conditioned to believe technology doesn't need constant evaluation. When my maps app reroutes my trip due to traffic, I don't question it. However, that same inclination is what leads some people to follow their map app's route all the way into a lake. 
+  
+For me, it is important to keep it in mind that just as the top website of a google search is not always the most helpful, the first response of the AI model is only a starting place. 
+
+Bonus points to the model for being fun to use as a tool for brainstorming ideas and to solicit options to choose from. Following this investigation, I used it to help come up with some new meal plans for the coming week.
+
+
+![](AI_user1.jpg)
